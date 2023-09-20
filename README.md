@@ -1,2 +1,2 @@
 # belly-button-challenge
-Biodiversity analysis
+appKI.js located in the static folder, has the visualization code for this project.
