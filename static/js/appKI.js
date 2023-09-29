@@ -22,6 +22,7 @@ function init(){
            // Initialize the chart with the first individual
       const initialId = data.names[0];
       optionChanged(initialId);
+      BubbleChart(initialId);
     });
 
 }  
@@ -57,6 +58,8 @@ function optionChanged(selectedId) {
       
         // Display sample metadata using a new function
         displaySampleMetadata(selectedId, data.metadata); 
+      
+        //
 
         //bonus
         //updateGaugeChart(selectedId)
